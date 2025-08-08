@@ -118,26 +118,39 @@
 
 
 
-  <script>
-    const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
+  
+<!-- Our Projects Section -->
+<div class="bg-gray-100 py-12 px-4">
+  <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Our Projects</h2>
+  
+  <div class="grid gap-8 md:grid-cols-3">
     
-    menuBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
+    <!-- Project Card 1 -->
+    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-3">Gym Management System</h3>
+      <p class="text-gray-600 mb-4">A complete solution for managing memberships, attendance, and payments.</p>
+      <a href="#" class="inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">Learn More</a>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-3">WeCare Inventory System</h3>
+      <p class="text-gray-600 mb-4">An inventory and billing platform for beauty & skincare products with offers and reports.</p>
+      <a href="#" class="inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">Learn More</a>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-3">Smart Irrigation System</h3>
+      <p class="text-gray-600 mb-4">IoT-based watering automation with soil moisture sensing and mobile monitoring.</p>
+      <a href="#" class="inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">Learn More</a>
+    </div>
+
+  </div>
+</div>
 
 
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer -->
+ <!-- Footer -->
 <footer class="bg-white mt-10 shadow-inner">
   <div class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
     <div class="flex flex-col md:flex-row justify-between items-center">
@@ -192,6 +205,27 @@
 </div>
 
 </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
   </script>
 
